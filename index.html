@@ -38,7 +38,7 @@
           <area shape="rect" coords="179,171,274,263" href="https://www.dota2.com/home" alt="Не забываю про описание">
           <area shape="rect" coords="89,289,306,333" href="https://www.dota2.com/home" alt="Выполняю условию про прямоугольнЫХ">
           <area shape="circle" coords="701,257,171" href="https://ru.dotabuff.com/players/101356886/matches?hero=io" alt="И здесь тоже">
-          <area shape="circle" coords="312,349,25" href="https://www.dota2.com/home" alt="А теперь и круглЫХ">
+          <area shape="circle" coords="349,312,25" href="https://www.dota2.com/home" alt="А теперь и круглЫХ">
         </map>
       </li>
       <li> <a href="about">Относительная на страницу в текущем каталоге</a> </li>
@@ -47,7 +47,81 @@
       <li> <a href="../../about"> Относительная на 2 уровня выше </a> </li>
       <li> <a href="/">Сокращённая на главную</a> </li>
       <li> <a href="/about">Сокращённая на внутреннюю</a> </li>
-      
+      <li>
+        <form action="/"
+          method="POST">
+
+      <label>
+        Имя:<br />
+        <input name="field-name"
+          value="Введите ваше имя" />
+      </label><br />
+
+      <label>
+        E-mail:<br />
+        <input name="field-email"
+          type="email"
+          placeholder="Введите вашу почту" />
+      </label><br />
+
+      <label>
+        Дата рождения:<br />
+        <input name="field-date"
+          value="2000-01-01"
+          type="date" />
+      </label><br />
+
+      Пол:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="Значение1" />
+        Мужской</label>
+      <label><input type="radio"
+        name="radio-group-1" value="Значение2" />
+        Женский</label><br />   
+      <label><input type="radio"
+        name="radio-group-1" value="Значение3" />
+        Я не человек</label><br />   
+          
+          
+      Количество конечностей:<br />
+      <label><input type="radio-2" checked="checked"
+        name="radio-group-2" value="Значение1" />
+        Меньше 4</label>
+      <label><input type="radio"
+        name="radio-group-2" value="Значение2" />
+        4</label><br />  
+      <label><input type="radio"
+        name="radio-group-2" value="Значение2" />
+        Больше 4</label><br />    
+          
+      <label>
+        Сверхспособности (Можно выбрать несколько):
+        <br />
+        <select name="field-name-2[]"
+          multiple="multiple">
+          <option value="Значение1">Неуязвимость(Регенерация входит сюда)</option>
+          <option value="Значение2" selected="selected">Сверхсила</option>
+          <option value="Значение3" selected="selected">Неосязаемость</option>
+          <option value="Значение4" selected="selected">Левитация</option>
+          <option value="Значение5" selected="selected">Сверхскорость(Манипуляции с временем)</option>
+          <option value="Значение6" selected="selected">Я Бэтмен</option>
+        </select>
+      </label><br />  
+          
+      <label>
+        Биография:<br />
+        <textarea name="field-name-3">Расскажите о себе</textarea>
+      </label><br />    
+          
+      <label><input type="checkbox" checked="checked"
+        name="check-1" />
+        С контрактом ознакомлен(а)</label><br />    
+          
+       <input type="submit" value="Отправить" />
+         </form>
+      </li>    
+          
+          
     </ol> 
     <p id="#about">Здесь мог быть интересный рассказ о компании.</p>
     <p id="#services">А здесь о том, что она делает.</p>
