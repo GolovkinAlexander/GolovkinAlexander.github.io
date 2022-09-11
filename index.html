@@ -11,8 +11,8 @@
     <ol> 
       <li> <a href="http://example.com/" >http</a> </li> 
       <li> <a href="https://example.com/">https</a> </li> 
-      <li> <a href="http://ftp://anyhost.ru/">ftp без авторизации</a> </li> 
-      <li> <a href="ftp://ivanov:123456@ftp.anyhost.ru/">ftp с авторизацией</a> </li>
+      <li> <a href="http://ftp://anyhost.ru/f.txt">ftp без авторизации</a> </li> 
+      <li> <a href="ftp://golovkin:123456@ftp.anyhost.ru/f.txt">ftp с авторизацией</a> </li>
       <li> <a href="https://en.wikipedia.org/wiki/Liu_Yan_(emperor)#Middle_reign">На фрагмент страницы</a> </li>
       <li> <a href="#about">На фрагмент текущей страницы</a> </li>
       <li> <a href="http://example.com?id=870&v=SSjaCOw">С двумя параметрами</a></li>
@@ -28,6 +28,8 @@
       </li>
       <li> <a title="Эта не светится, ну и ладно">Ссылка без href</a> </li>
       <li> <a href="" >Ссылка с пустым href</a> </li>
+      <li> <a href="https://example.com/" rel="nofollow"> Переход не пройдёт </a> </li>
+      <li> <!--noindex--><a href="http://example.com/" >Ссылка с запретом для индексации</a><!--/noindex--> </li>
     </ol> 
     <p id="#about">Здесь мог быть интересный рассказ о компании.</p>
     <p id="#services">И что она делает.</p>
