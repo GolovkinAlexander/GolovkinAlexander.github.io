@@ -44,6 +44,16 @@ body
     color:white;
 }
 
+a:link {
+    color: white;
+  }
+a:visited {
+    color: #c8c8c8;
+  }
+a:active {
+    color: white;
+  }
+
 .content
 {
     margin: 0 auto;
