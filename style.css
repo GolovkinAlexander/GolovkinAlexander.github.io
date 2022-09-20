@@ -29,7 +29,7 @@ header
     max-width: 960px;
 }
 
-.nav
+.nav_menu
 {
     display: flex;
     gap:0px;
