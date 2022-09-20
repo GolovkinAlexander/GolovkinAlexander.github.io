@@ -29,6 +29,13 @@ header
     max-width: 960px;
 }
 
+.nav
+{
+    display: flex;
+    gap:0px;
+    list-style-type: none;
+}
+
 h1
 {
     padding: 20px;
