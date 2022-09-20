@@ -28,6 +28,15 @@ header
     margin: 0 auto;
     max-width: 960px;
 }
+.nav
+{
+    display: flex;
+    gap:0px;
+}
+u1
+{
+    list-style-type: none;
+}
 
 h1
 {
