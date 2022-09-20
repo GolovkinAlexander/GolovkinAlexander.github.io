@@ -33,6 +33,9 @@ header
 {
     display: flex;
     gap:0px;
+}
+ul
+{
     list-style-type: none;
 }
 
