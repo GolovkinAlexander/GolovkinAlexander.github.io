@@ -29,11 +29,12 @@ header
     max-width: 960px;
 }
 
-.nav_menu{
+.nav_menu
+{
     display: flex;
-    gap:15px;
 }
-ul{
+ul
+{
     list-style-type: none;
 }
 
