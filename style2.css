@@ -74,6 +74,7 @@ h1
 body
 {
     margin: 0px;
+    width: 100vw;
     background-color: white;
     color:white;
 }
