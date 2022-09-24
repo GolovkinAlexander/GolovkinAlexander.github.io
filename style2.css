@@ -27,7 +27,7 @@ header
     margin-top: -20px;
     padding-top: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: white;
+    background-color: blue;
 }
 
 .header, .nav_menu, .content, .form, .table
@@ -35,7 +35,19 @@ header
     margin: 0 auto;
     max-width: 960px;
     width: 100vw;
+    background-color: blue;
 }
+
+.nav_menu, .content, .form, .table
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 
 ul
 {
@@ -53,7 +65,7 @@ h1
 body
 {
     margin: 0px;
-    background-color: blue;
+    background-color: white;
     color:white;
 }
 
@@ -73,7 +85,7 @@ a:active {
 }
 .map
 {
-    width:950px;
+    width:900px;
 }
 .odd
 {
@@ -121,6 +133,8 @@ footer
 
 @media screen and (min-device-width: 800px) 
 {
+
+
     .header, .nav_menu, .content, .form, .table
     {
         max-width: 960px;
@@ -131,6 +145,11 @@ footer
         width:100%;
     }
     
+    .nav_menu
+    {
+        display: flex;
+    }
+
     .table
     {
         order:1;
