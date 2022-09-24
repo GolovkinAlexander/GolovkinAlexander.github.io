@@ -38,14 +38,23 @@ header
     background-color: blue;
 }
 
+header
+{
+    margin-bottom: 5px;
+}
 .nav_menu, .content, .form, .table
 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom:5px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+footer
+{
+    margin-top: 5px;
 }
 
 
@@ -58,8 +67,9 @@ h1
 {
     padding: 20px;
     font-size: 64px;
-    color:black;
+    color:white;
     white-space:nowrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body
@@ -115,11 +125,11 @@ table,th, td {
 }
 footer
 {
-  background-color: white;
+  background-color: blue;
   width:100vw;
   min-width: 1200px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: black;
+  color: white;
   order:3;
 }
 
