@@ -33,7 +33,7 @@ header
 .header, .nav_menu, .content, .form, .table
 {
     margin: 0 auto;
-    width: 100vw;
+    width: 100%;
     background-color: blue;
 }
 
@@ -74,7 +74,6 @@ h1
 body
 {
     margin: 0px;
-    width: 100vw;
     background-color: white;
     color:white;
 }
