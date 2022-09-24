@@ -33,7 +33,6 @@ header
 .header, .nav_menu, .content, .form, .table
 {
     margin: 0 auto;
-    max-width: 960px;
     width: 100vw;
     background-color: blue;
 }
