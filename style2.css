@@ -116,13 +116,19 @@ footer
     margin: 0 auto;
     max-width: 960px;
     text-align: center;
+    min-width: 1200px;
 }
 
 @media screen and (min-device-width: 800px) 
 {
-    .header, .nav_menu, .content, .form, .table, footer
+    .header, .nav_menu, .content, .form, .table
     {
         max-width: 960px;
+    }
+
+    .footer
+    {
+        width:100%;
     }
     
     .table
