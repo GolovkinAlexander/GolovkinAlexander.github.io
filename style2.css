@@ -22,7 +22,6 @@ html
 header 
 {
     width: 100vw;
-    min-width: 1200px;
     height: 170px;
     margin-top: -20px;
     padding-top: 10px;
@@ -127,7 +126,6 @@ footer
 {
   background-color: blue;
   width:100vw;
-  min-width: 1200px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
   order:3;
