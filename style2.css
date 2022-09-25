@@ -32,7 +32,6 @@ header
 
 .header, .nav_menu, .content, .form, .table
 {
-    margin: 0 auto;
     width:100vw;
     background-color: blue;
 }
