@@ -137,6 +137,12 @@ footer
   order:3;
 }
 
+.logo
+{
+    margin-left:0px;
+    margin-top:0px;
+}
+
 .footer
 {
     margin: 0 auto;
@@ -156,6 +162,10 @@ footer
     {
         min-width:1200px;
         width:100%;
+    }
+    h1
+    {
+        float:none;
     }
     
     .nav_menu
