@@ -26,24 +26,28 @@ html
 header 
 {
     width: 100vw;
-    height: 170px;
+    height: 150px;
     margin-top: -20px;
+    margin-bottom: 5px;
     padding-top: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: blue;
 }
 
+.header
+{
+    max-height: 120px;
+}
+
 .header, .nav_menu, .content, .form, .table
 {
     margin:0 auto;
+    margin-bottom: 10px;
     width:100vw;
     background-color: blue;
+    
 }
 
-header
-{
-    margin-bottom: 5px;
-}
 .nav_menu, .content, .form, .table
 {
     margin-top: 5px;
@@ -73,7 +77,8 @@ h1
     white-space:nowrap;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     float:right;
-    
+    font-size: 5vw;    
+    margin-top: 20px
 }
 
 body
