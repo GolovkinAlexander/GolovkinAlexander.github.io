@@ -4,6 +4,21 @@ html
     overflow-x:hidden;
 }
 
+a:link {
+    color: white;
+  }
+a:visited {
+    color: #c8c8c8;
+  }
+a:active {
+    color: white;
+  }
+
+  ul
+{
+    list-style-type: none;
+}
+
 body
 {
     background-color: white;
@@ -21,7 +36,6 @@ header
 {
     float: left;
     width: 120px;
-    border-radius:100px;
 }
 
 h1
@@ -32,63 +46,27 @@ h1
     float:right;   
 }
 
-.nav_menu
+.nav_menu, .content, .form, .table
 {
     background-color: blue;
 }
-
-.content, .form, .table
-{
-    margin:0 auto;
-    margin-top: 5px;
-    margin-bottom:5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    width:100vw;
-    background-color: blue;
-}
-
-footer
-{
-    margin-top: 5px;
-}
-
-ul
-{
-    list-style-type: none;
-}
-
-a:link {
-    color: white;
-  }
-a:visited {
-    color: #c8c8c8;
-  }
-a:active {
-    color: white;
-  }
 
 .flower
 {
     width: 400px;
 }
-.map
-{
-    width:900px;
-}
+
 .odd
 {
 background-color: #ffff40;
 }
-.even
+tr.even
 {
 background-color: #ffaa00;
 }
 
 table,th, td {
-    border: 1px solid black;
+    border: 3px solid black;
     border-collapse: collapse;
     text-align: center;
     color:black;
@@ -107,16 +85,9 @@ table,th, td {
 footer
 {
   background-color: blue;
-  width:100vw;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
   order:3;
-}
-
-.footer
-{
-    margin: 0 auto;
-    text-align: center;
 }
 
 @media screen and (min-device-width: 800px) 

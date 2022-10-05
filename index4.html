@@ -17,13 +17,13 @@
   <body class = "d-flex flex-column">
     <header class ="mb-1">
       <div class="header container-fluid">
-        <img class = "logo" src="logo.png" alt="Логотипчик">
+        <img class = "logo rounded-circle" src="logo.png" alt="Логотипчик">
         <h1 class = "display-4 pt-4" id="top"> Самый обычный сайт</h1> 
       </div> 
     </header>
 
     <nav>
-      <ul class = "nav_menu  col col-12 my-2 mx-auto pb-3 py-3">
+      <ul class = "nav_menu  col col-12 my-1 mx-auto pb-2 py-2">
         <li><a href="#links" title ="Ссылки" > Список ссылок </a> |</li>
         <li><a href="#table" title ="Таблица"> Таблица </a> |</li>
         <li><a href="#form" title ="Форма"> Форма </a> |</li>
@@ -31,7 +31,7 @@
       </ul>
     </nav>
 
-    <div class = "content">
+    <div class = "content  col col-12 my-1 mx-auto p-2">
     <ol> 
       <li> <a href="http://example.com/" id="links" >http</a> </li> 
       <li> <a href="https://example.com/">https</a> </li> 
@@ -58,7 +58,7 @@
       <li> <p><a href="http://example.com/" >Ссылка внутри абзаца</a><p> </li> 
       <li> <a href="https://en.wikipedia.org/wiki/Flower"> <img src="image.jpg" class="flower" alt="Описание - это важно"> </a> </li>
       <li> 
-        <img src="wisp.jpg" class="map" usemap="#rect+circle" alt="Кликабельны на логотип и шар">
+        <img src="wisp.jpg" class="img-fluid" usemap="#rect+circle" alt="Кликабельны на логотип и шар">
         <map name="rect+circle">
           <area shape="rect" coords="179,171,274,263" href="https://www.dota2.com/home" alt="Не забываю про описание">
           <area shape="circle" coords="701,257,171" href="https://ru.dotabuff.com/players/101356886/matches?hero=io" alt="И здесь тоже">
@@ -72,34 +72,37 @@
       <li> <a href="/about">Сокращённая на внутреннюю</a> </li>
     </ol>
     </div>
-    <div class = "table">
-    <table id="table">
-        <tr class="even">
-            <th> Столбец 1</th>
-            <th> Столбец 2</th>
-            <th> Столбец 3</th>
-        </tr>
-        <tr class="odd">
-            <td colspan="3"> Вся строка как одна ячейка </td>
-        </tr>
-        <tr class="even">
-            <td> Одна ячейка </td>
-            <td> Одна ячейка </td>
-            <td> Одна ячейка </td>
-        </tr>
-        <tr class="odd">
-            <td colspan="2"> 2 ячейки по ширине </td>
-            <td> Одна ячейка </td>
-        </tr>
-        <tr class="even">
-            <td> Одна ячейка </td>
-            <td> Одна ячейка </td>
-            <td> Одна ячейка </td>
-        </tr>
-    </table>
-    </div>
+        <table id="table"class = "table mx-auto m-1">
+          <thead>
+            <tr class="even">
+              <th> Столбец 1</th>
+              <th> Столбец 2</th>
+              <th> Столбец 3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="odd">
+                <td colspan="3"> Вся строка как одна ячейка </td>
+            </tr>
+            <tr class="even">
+              <td> Одна ячейка </td>
+              <td> Одна ячейка </td>
+              <td> Одна ячейка </td>
+            </tr>
+            <tr class="odd">
+              <td colspan="2"> 2 ячейки по ширине </td>
+              <td> Одна ячейка </td>
+            </tr>
+            <tr class="even">
+              <td> Одна ячейка </td>
+              <td> Одна ячейка </td>
+              <td> Одна ячейка </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
-    <div class = "form">
+    <div class = "form col col-12 my-1 mx-auto p-2">
     <form action="/"
     method="POST">
 
@@ -173,8 +176,8 @@
    </form>
    </div>
 
-    <footer>
-      <div class = "footer" id="bot">
+    <footer class ="container-fluid mt-1">
+      <div class = "footer text-center mx-auto" id="bot">
         <p> Головкин Александр 2022</p> 
         <p>(с) Все права защищены(Но это не точно)</p> 
         <p>Любые личности, события и отсылки, размещённые на этой страницей являются выдумкой автора. Любые совпадения с реальностью случайны.</p>
