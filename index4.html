@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style4.css">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <title>Задание 4</title>
+  </head>
+  
+  <body class = "d-flex flex-column">
+    <header class ="mb-1">
+      <div class="header container-fluid">
+        <img class = "logo" src="logo.png" alt="Логотипчик">
+        <h1 class = "display-4 pt-4" id="top"> Самый обычный сайт</h1> 
+      </div> 
+    </header>
+
+    <nav>
+      <ul class = "nav_menu  col col-12 my-2 mx-auto pb-3 py-3">
+        <li><a href="#links" title ="Ссылки" > Список ссылок </a> |</li>
+        <li><a href="#table" title ="Таблица"> Таблица </a> |</li>
+        <li><a href="#form" title ="Форма"> Форма </a> |</li>
+        <li><a href="#bot" title ="Сам не знаю зачем"> В самый низ</a></li>
+      </ul>
+    </nav>
+
+    <div class = "content">
+    <ol> 
+      <li> <a href="http://example.com/" id="links" >http</a> </li> 
+      <li> <a href="https://example.com/">https</a> </li> 
+      <li> <a href="ftp://anyhost.ru/f.txt">ftp без авторизации</a> </li> 
+      <li> <a href="ftp://golovkin:123456@ftp.anyhost.ru/f.txt">ftp с авторизацией</a> </li>
+      <li> <a href="https://en.wikipedia.org/wiki/Liu_Yan_(emperor)#Middle_reign">На фрагмент страницы</a> </li>
+      <li> <a href="#about">На фрагмент текущей страницы</a> </li>
+      <li> <a href="http://example.com?id=870&v=SSjaCOw">С двумя параметрами</a></li>
+      <li>
+      <p>Список основной навигации сайта</p>
+        <nav>
+          <ul>
+            <li><a href="#top" title ="Надеюсь">Наверх</a></li>
+            <li><a href="#table" title="Это">Таблица</a></li>
+            <li><a href="#form" title="Работает">Форма</a></li>
+            <li><a href="#bot" title ="Сам не знаю зачем"> В самый низ</a></li>
+          </ul>
+        </nav>
+      </li>
+      <li> <a title="Эта не светится, ну и ладно">Ссылка без href</a> </li>
+      <li> <a href="" >Ссылка с пустым href</a> </li>
+      <li> <a href="https://example.com/" rel="nofollow"> Ссылка с запретом для перехода </a> </li>
+      <li> <!--noindex--><a href="http://example.com/" >Ссылка с запретом для индексации</a><!--/noindex--> </li>
+      <li> <p><a href="http://example.com/" >Ссылка внутри абзаца</a><p> </li> 
+      <li> <a href="https://en.wikipedia.org/wiki/Flower"> <img src="image.jpg" class="flower" alt="Описание - это важно"> </a> </li>
+      <li> 
+        <img src="wisp.jpg" class="map" usemap="#rect+circle" alt="Кликабельны на логотип и шар">
+        <map name="rect+circle">
+          <area shape="rect" coords="179,171,274,263" href="https://www.dota2.com/home" alt="Не забываю про описание">
+          <area shape="circle" coords="701,257,171" href="https://ru.dotabuff.com/players/101356886/matches?hero=io" alt="И здесь тоже">
+        </map>
+      </li>
+      <li> <a href="about">Относительная на страницу в текущем каталоге</a> </li>
+      <li> <a href="about/VeryImportant">Относительную в каталоге about</a> </li>
+      <li> <a href="../about"> Относительная на уровень выше </a></li>
+      <li> <a href="../../about"> Относительная на 2 уровня выше </a> </li>
+      <li> <a href="/">Сокращённая на главную</a> </li>
+      <li> <a href="/about">Сокращённая на внутреннюю</a> </li>
+    </ol>
+    </div>
+    <div class = "table">
+    <table id="table">
+        <tr class="even">
+            <th> Столбец 1</th>
+            <th> Столбец 2</th>
+            <th> Столбец 3</th>
+        </tr>
+        <tr class="odd">
+            <td colspan="3"> Вся строка как одна ячейка </td>
+        </tr>
+        <tr class="even">
+            <td> Одна ячейка </td>
+            <td> Одна ячейка </td>
+            <td> Одна ячейка </td>
+        </tr>
+        <tr class="odd">
+            <td colspan="2"> 2 ячейки по ширине </td>
+            <td> Одна ячейка </td>
+        </tr>
+        <tr class="even">
+            <td> Одна ячейка </td>
+            <td> Одна ячейка </td>
+            <td> Одна ячейка </td>
+        </tr>
+    </table>
+    </div>
+
+    <div class = "form">
+    <form action="/"
+    method="POST">
+
+  <label>
+    Имя:<br>
+    <input name="field-name"
+      placeholder="Введите ваше имя">
+  </label><br>
+
+  <label>
+    E-mail:<br>
+    <input name="field-email"
+      type="email"
+      placeholder="Введите вашу почту">
+  </label><br>
+    
+  <label>
+    Дата рождения:<br>
+    <input name="field-date"
+      value="2000-01-01"
+      type="date">
+  </label><br>
+
+  Пол:<br>
+  <label><input type="radio" checked="checked"     
+    name="radio-group-1" value="Значение1">
+    Мужской</label>
+  <label><input type="radio"
+    name="radio-group-1" value="Значение2">
+    Женский</label><br>    
+  <label><input type="radio"
+    name="radio-group-1" value="Значение3">
+    Я не человек</label><br>   
+        
+        
+  Количество конечностей:<br>
+  <label><input type="radio" checked="checked"
+    name="radio-group-2" value="Значение1">
+    Меньше 4</label><br>
+  <label><input type="radio"
+    name="radio-group-2" value="Значение2">
+    4</label><br>  
+  <label><input type="radio"
+    name="radio-group-2" value="Значение2">
+    Больше 4</label><br>    
+        
+        
+  <label>
+    Сверхспособности (Можно выбрать несколько):
+    <br>
+    <select name="field-name-2[]"
+      multiple="multiple">
+      <option value="Значение1">Неуязвимость(Регенерация входит сюда)</option>         
+      <option value="Значение2" selected="selected">Сверхсила</option>
+      <option value="Значение3">Левитация</option>
+      <option value="Значение4">Сверхскорость(Манипуляции с временем)</option>
+      <option value="Значение5">Я Бэтмен</option>
+    </select>
+  </label><br>  
+        
+  <label>
+    Биография:<br>
+    <textarea name="field-name-3">Расскажите о себе</textarea>
+  </label><br>    
+        
+  <label><input type="checkbox"
+    name="check-1">
+    С контрактом ознакомлен(а)</label><br>    
+        
+   <input type="submit" value="Отправить">
+   </form>
+   </div>
+
+    <footer>
+      <div class = "footer" id="bot">
+        <p> Головкин Александр 2022</p> 
+        <p>(с) Все права защищены(Но это не точно)</p> 
+        <p>Любые личности, события и отсылки, размещённые на этой страницей являются выдумкой автора. Любые совпадения с реальностью случайны.</p>
+      </div>
+    </footer>
+</body>
+ 
+</html>
