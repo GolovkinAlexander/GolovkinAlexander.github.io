@@ -13,9 +13,6 @@ window.addEventListener("DOMContentLoaded", function (event)
             alert("Все поля должны быть заполнены");
         }
         else
-            if((parseInt(price).isNan) || (parseInt(count).isNan))
-            {alert("Вводить можно только числа");}
-            else
             {r.innerHTML = parseInt(price)*parseInt(count) + " rub";}
     }
     let c = document.getElementById("my-button");
