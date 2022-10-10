@@ -7,12 +7,11 @@ window.addEventListener("DOMContentLoaded", function (event)
         let price = document.getElementById("price").value;
         let count = document.getElementById("count").value;
         let r = document.getElementById("result");
-        
-        
         let onlydigit=/^(?!(0))\d+$/;
         if(price.match(onlydigit)===null || count.match(onlydigit)===null)
         {
-          alert("Цена и количество должны быть положительными числами\n(Без незначащих 0)");
+          alert("Цена и количество должны быть положительными" +
+                "числами\n(Без незначащих 0)");
         }
         else
         {
