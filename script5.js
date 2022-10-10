@@ -6,7 +6,18 @@ window.addEventListener("DOMContentLoaded", function (event)
         let price = document.getElementById("price").value;
         let count = document.getElementById("count").value;
         let r = document.getElementById("result");
-
+        
+        
+        if(price.match(/^[0-9]+$/) != null)
+        {
+         console.log("String contains only numbers")
+        }
+        else
+        {
+         console.log("String does not contain only numbers") 
+        }
+        }
+        
         if(price === "" || count === "")
         {
             alert("Все поля должны быть заполнены числами");
