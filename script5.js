@@ -9,7 +9,7 @@ window.addEventListener("DOMContentLoaded", function (event)
 
         if(price === "" || count === "")
         {
-            alert("Все поля должны быть заполнены");
+            alert("Все поля должны быть заполнены числами");
         }
         else
             {r.innerHTML = parseInt(price)*parseInt(count) + " rub";}
