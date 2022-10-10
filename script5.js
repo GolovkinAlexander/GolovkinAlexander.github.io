@@ -14,7 +14,7 @@ window.addEventListener("DOMContentLoaded", function (event)
         else
             if (price<0 || count <0)
             {alert("Цена и количество не могут быть отрицательными");}
-            else      
+            else
               {r.innerHTML = parseFloat(price)*parseFloat(count) + " rub";}
     }
     let c = document.getElementById("my-button");
