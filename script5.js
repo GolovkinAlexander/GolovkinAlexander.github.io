@@ -10,12 +10,12 @@ window.addEventListener("DOMContentLoaded", function (event)
         let onlydigit=/^(?!(0))\d+$/;
         if(price.match(onlydigit)===null || count.match(onlydigit)===null)
         {
-          alert("Цена и количество должны быть положительными" +
-                " числами\n(Без незначащих 0)");
+          alert("Цена и количество должны быть целыми" +
+                " положительными числами\n(Без незначащих 0)");
         }
         else
         {
-          r.innerHTML = parseFloat(price) * parseFloat(count);
+          r.innerHTML = parseInt(price) * parseInt(count);
         }
       }
 
