@@ -12,7 +12,7 @@ window.addEventListener("DOMContentLoaded", function (event)
             alert("Все поля должны быть заполнены числами");
         }
         else
-            {r.innerHTML = parseInt(price)*parseInt(count) + " rub";}
+            {r.innerHTML = parseFloat(price)*parseFloat(count) + " rub";}
     }
     let c = document.getElementById("my-button");
     c.addEventListener("click", calc);
