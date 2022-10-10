@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded", function (event)
         }
         else
             if (price<0 || count <0)
-            {alert("Цена и количество не могут быть отрицательными";}
+            {alert("Цена и количество не могут быть отрицательными");}
             else      
               {r.innerHTML = parseFloat(price)*parseFloat(count) + " rub";}
     }
