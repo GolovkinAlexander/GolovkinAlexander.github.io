@@ -1,9 +1,8 @@
 window.addEventListener("DOMContentLoaded", function (event)
 {
     console.log("DOM fully loaded and parsed");
-    function calc(e)
+    function calc()
     {
-        e.preventDefault();
         let price = document.getElementById("price").value;
         let count = document.getElementById("count").value;
         let r = document.getElementById("result");
