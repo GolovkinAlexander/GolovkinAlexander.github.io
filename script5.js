@@ -11,7 +11,7 @@ window.addEventListener("DOMContentLoaded", function (event)
         if(price.match(onlydigit)===null || count.match(onlydigit)===null)
         {
           alert("Цена и количество должны быть положительными" +
-                "числами\n(Без незначащих 0)");
+                " числами\n(Без незначащих 0)");
         }
         else
         {
