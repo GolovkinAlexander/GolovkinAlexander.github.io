@@ -12,7 +12,7 @@ window.addEventListener("DOMContentLoaded", function (event)
             alert("Все поля должны быть заполнены числами");
         }
         else
-            if (price<0 || count <0)
+            if (parseFloat(price)<0 || parseFloat(count) <0)
             {alert("Цена и количество не могут быть отрицательными");}
             else
               {r.innerHTML = parseFloat(price)*parseFloat(count) + " rub";}
