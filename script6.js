@@ -44,7 +44,7 @@ function updatePrice(v) {
         prodPrice.innerHTML = "Количество введено некорректно";
     }
       else {
-        prodPrice.innerHTML = "<span> Итого: </span> <br>" + v * price +
+        prodPrice.innerHTML = v * price +
         " рублей";
     }
 
@@ -53,14 +53,14 @@ function updatePrice(v) {
 function getPrices() {
     return {
         prodOptions: {
-            option2: 5,
-            option3: 10
+            option2: 1500,
+            option3: 3000
         },
         prodProperties: {
-            check1: 277,
-            check2: 133
+            check1: 3000,
+            check2: 500
         },
-        prodTypes: [100, 200, 300]
+        prodTypes: [1000, 3000, 5000]
     };
 }
 
