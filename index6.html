@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style5.css">
+    <title>Калькулятор</title>
+
+  </head>
+  <body>
+    <h1>Boost</h1>
+    <div class = "content">
+        <form>
+          <div class="input">
+            <label for="count">Количество</label> <br>
+            <input type="text" name="count" id="count">
+          </div>
+          <select name="prodType">
+            <option value="1">Эконом</option>
+            <option value="2">Обычная</option>
+            <option value="3">Экспресс</option>
+          </select>
+
+          <div id="prodOptions">
+            <span class="text"> Куда доставляем?</span> <br>
+            <div class = "form_radio">
+              <label><input type="radio" name="prodOptions" value="option1"> Кнопка 1 </label>
+              <label><input type="radio" name="prodOptions" value="option2"> Кнопка 2 </label>
+              <label><input type="radio" name="prodOptions" value="option3"> Кнопка 3 </label>
+            </div>
+          </div>
+
+          <div id="checkboxes">
+            <span> Выберите дополнительные опции <br> (экспресс доствка всегда осуществляется до двери)</span> <br>
+            <label><input type="checkbox" name="checkboxes" value="check1"> Дополнительная упаковка</label>
+            <label><input type="checkbox" name="checkboxes" value="check2"> Секьюрити – лента</label>
+          </div>
+          
+        </form>
+        <div class="price_box">
+            <div class="result">
+              <div class="price_title" > Итого: <span class="price_result" id="result" >0 rub</span> </div>
+            </div>
+        </div>  
+    </div>
+
+  <script src="script5.js" defer></script>
+  </body>
+</html>
+
+
+
+* {
+  font-family: 'Calibri', sans-serif;
+  font-size: 16px;
+}
+
+h1 
+{
+  text-align: center;
+  font-size: 36px;
+}
+    
+form 
+{
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+
+input 
+{
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.form_radio label 
+{
+	display: inline-block;
+  padding-right: 15px;
+	margin-right: 0;
+	line-height: 18px;
+	user-select: none;
+}
+
+form
+{
+  background-color: rgb(208, 208, 216);
+  padding:10px;
+}
+
+.result 
+{
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.price_title,
+.price_title span 
+{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
