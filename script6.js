@@ -57,8 +57,8 @@ function getPrices() {
             option3: 3000
         },
         prodProperties: {
-            check1: 3000,
-            check2: 500
+            prop1: 3000,
+            prop2: 500
         },
         prodTypes: [1000, 3000, 5000]
     };
