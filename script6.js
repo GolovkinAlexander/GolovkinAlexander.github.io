@@ -9,12 +9,7 @@ function updatePrice(v) {
     }
 
     let radioDiv = document.getElementById("prodOptions");
-    if (select.value === "1" || select.value === "3") {
-        radioDiv.style.display = "none";
-    }
-    else {
-        radioDiv.style.display = "block";
-    }
+    radioDiv.style.display = ((select.value === "1" || select.value === "3") ? "none" : "block");
 
     if (select.value === "2") {
         let radios = document.getElementsByName("prodOptions");
@@ -29,13 +24,7 @@ function updatePrice(v) {
     }
 
     let checkDiv = document.getElementById("checkboxes");
-
-    if (select.value === "3") {
-        checkDiv.style.display = "none";
-    }
-    else {
-        checkDiv.style.display = "block";
-    }
+    checkDiv.style.display = (select.value === "3" ? "block" : "none");
 
 
     if (select.value === "3") {
