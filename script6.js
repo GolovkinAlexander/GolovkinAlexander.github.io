@@ -74,7 +74,7 @@ window.addEventListener("DOMContentLoaded", function (event) {
   let checkboxDiv = document.getElementById("checkboxes");
   checkboxDiv.style.display = "none";
 
-  let v = document.getElementById("field");
+  let v = document.getElementById("count");
   v.addEventListener("input", function (event) {
     updatePrice(v.value);
   });
