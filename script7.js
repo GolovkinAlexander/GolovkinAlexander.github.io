@@ -1,8 +1,9 @@
-$(document).ready(function () { 
-  $('.single-item').slick({
-      infinite: true,
-      dots: true,
-      slidesToShow: 3,
-      slidesToScroll: 1
-    });
+$(document).ready(function () {
+  $('.your-class').slick({
+    dots: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+  });
 });
