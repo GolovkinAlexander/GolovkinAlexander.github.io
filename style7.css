@@ -19,8 +19,11 @@ body{
 
 @media screen and (min-device-width: 800px) 
 {
-    margin-top: 15vw;
-    margin-right: 10vw;
-    margin-left: 10vw;
-    margin-bottom: 15vw;
+    
+    body{
+      margin-top: 15vw;
+      margin-right: 10vw;
+      margin-left: 10vw;
+      margin-bottom: 15vw;
+    }
 }
