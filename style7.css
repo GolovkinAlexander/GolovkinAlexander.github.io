@@ -6,13 +6,10 @@ height:100%;
 
 body{
     background-color: green;
-    margin-top:5vw;
-}
-
-.wrapper{
-    max-width: 1200px;
-    height:500px;
-    margin: 0 auto;
+    margin-top: 15vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    margin-bottom: 15vw;
 }
 
 .slick {
