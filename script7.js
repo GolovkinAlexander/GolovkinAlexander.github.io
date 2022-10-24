@@ -4,6 +4,6 @@ $(document).ready(function () {
     infinite: false,
     speed: 300,
     slidesToShow: 4,
-    slidesToScroll: 1,
+    slidesToScroll: 4,
   });
 });
