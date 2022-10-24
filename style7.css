@@ -21,6 +21,21 @@ body{
   margin: 0 auto;
 }
 
+footer
+{
+    margin-top: 5px;
+    background-color: blue;
+    width:100vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.footer
+{
+    margin: 0 auto;
+    text-align: center;
+}
+
 @media screen and (min-device-width: 800px) 
 {
     
@@ -29,5 +44,11 @@ body{
       margin-right: 10vw;
       margin-left: 10vw;
       margin-bottom: 15vw;
+    }
+    
+    .footer
+    {
+        max-width: 960px;
+        width:100%;
     }
 }
