@@ -36,9 +36,13 @@ html{
   }
 
   #button1 {
-    width: 120px;
+    width: 130px;
     height: 60px;
     border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
   }
   
   @media screen and (min-device-width: 800px) 
